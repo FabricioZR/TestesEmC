@@ -12,3 +12,7 @@ int main()
 	printf("\n%d\n", *q);
 	return (0);
 }
+
+// PARA COMPILAR
+//gcc exercicio1.c -o prog
+// ./prog
