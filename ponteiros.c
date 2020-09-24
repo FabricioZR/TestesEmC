@@ -1,3 +1,6 @@
+#include <stdio.h>
+#include <stdlib.h>
+
 //variavel que armazena um endereco de memoria e nao um valor
 //armazena o endereço de uma variavel
 //possui dois operadores: (*,&)
@@ -7,12 +10,8 @@
 /////p = &v;     //passa o endereco de v para o ponteiro p. & acessa o endereco de memoria de uma var
 // //printf ("%d", p);
 
-#include <stdio.h>
-#include <stdlib.h>
-
 int main()
 {
-
     int *ponteiro;
     int valor = 45;
 
@@ -25,4 +24,3 @@ int main()
 //%p tipo para imprimir um ponteiro em si
 //%s imprime string
 //NULL padroniza o nada
-
