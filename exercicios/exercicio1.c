@@ -8,8 +8,10 @@ int main()
 	int x, *p, *q;
 	p = &x;
 	q = p;
-	x = 10;
-	printf("\n%d\n", *q);
+	printf("Digite um numero: ");
+	scanf("%d", &x);
+	printf("Seu numero eh: \n%d\n", *q);
+	printf("O local aonde ele esta alocado na memoria eh: \n%d\n", p);
 	return (0);
 }
 
