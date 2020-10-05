@@ -1,21 +1,24 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-//Exemplo da aula de Ordenação de dados -- Nao sei porque ta tanto erro
+void main()
+{
+    int a = 4;
+    int b = 1;
 
-//IF
+    if (a > 1)
 
-int a = 0;
-int b = 0;
+    {
+        b = a + 2;
+    }
+    else
+    {
+        b = a - 2;
+    }
 
-if (a > 1)
-    b = a + 2;
-else
-    b = a - 2;
+    //IF COM CONDIÇÂO TERNARIA
 
-//IF COM CONDIÇÂO TERNARIA
-
-b = (a > 1) ? a + 2 : a - 2;
-
+    b = (a > 1) ? a + 2 : a - 2;
+}
 //os dois fazem a mesma coisa, a condição ternaria nao funciona se tiver b++ ou b--;
 //a prerogativa da condicao ternaria é que vai retornar algo se for verd e retorna algo se for falso
