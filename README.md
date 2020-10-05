@@ -13,4 +13,4 @@ Testes feitos em linguagem C
 # PARA EXECUTAR UM CODIGO EM C++:
 
 > > g++ -o prog NomeDoArquivoEmC++.cpp
-> > prog
+> > ./prog
