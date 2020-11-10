@@ -1,6 +1,6 @@
 # TestesEmC
 
-Testes feitos em linguagem C
+Estudos da linguagem C
 
 # PARA EXECUTAR UM CODIGO EM C:
 
