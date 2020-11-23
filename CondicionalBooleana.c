@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>
-
 //biblioteca sddbool.h usada para ler booleano
+
 void main()
 {
     bool v = true, f = false;
